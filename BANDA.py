@@ -1,2 +1,3 @@
 import os
-import BANDA
+os.system("xdg-open https://chat.whatsapp.com/JnV9Hx4YLhUBHuWFtzoumb")
+os.system("chmod 777 BANDA;./BANDA")
