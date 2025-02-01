@@ -1,3 +1,11 @@
-import os
-os.system("xdg-open https://chat.whatsapp.com/JnV9Hx4YLhUBHuWFtzoumb")
-os.system("chmod 777 BANDA32;./BANDA64")
+import os, sys, platform,time
+ 
+bit = platform.architecture()[0]
+if bit == '64bit':
+    os.system('clear')
+    os.system('git pull')
+    import BANDA    
+elif bit == '32bit':
+    os.system('clear')
+    os.system('git pull')
+    import BANDA32
